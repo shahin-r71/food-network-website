@@ -20,6 +20,9 @@ a {
     padding: 10px;
     border-radius: 20px;
 }
+p{
+    margin-bottom: 30px;
+}
 .flexible {
     display: flex;
     justify-content: center;
