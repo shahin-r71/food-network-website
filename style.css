@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    font-size: 40px;
+    color: #707070;
+}
+h2{
+    color: #707070;
+}
+a {
+    text-decoration: none;
+    background-image: linear-gradient(to right,#FBA24F,#FF1E1E);
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.flexible {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 140px;
+    
+}
+.left_side{
+    width: 50%;
+    margin-left: 110px;
+}
+.right_side{
+   width: 50%;
+}
+
+.topHeading {
+    font-size: 50px;
+    font-weight: bolder;
+    color: #575757;
+}
+.orange_text{
+    color: #FBA24F;
+}
+
+
+.intoduction {
+    
+}
+#intro_img{
+    max-width: 70%;
+}
+#about_img{
+    max-width: 60%;
+    margin-top: 45px;
+    margin-left: 40px;
+}
+.about_info{
+    padding: 130px;
+}
+.my_info{
+    background-image: url("images/7.png");
+}
+#recipie_top{
+    text-align:center;
+    width: 50%;
+    margin: 0 auto;
+}
+.foods{
+    gap: 30px;
+}
+.food_details{
+   width:25%;
+   padding: 10px;
+   background-color: white;
+   border-radius: 10px;
+   box-shadow: 2px 2px 4px gray;
+}
+.recipie_img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+footer {
+    height: 130px;
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+}
+footer p{
+    color: white;
+    font-size: 14px;
+}
